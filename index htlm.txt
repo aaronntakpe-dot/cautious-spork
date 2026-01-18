@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Site Vitrine</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; }
+    header { background:#0078D7; color:white; padding:20px; text-align:center; }
+    nav { background:#333; padding:10px; text-align:center; }
+    nav a { color:white; margin:0 15px; text-decoration:none; }
+    section { padding:40px; }
+    .services { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; }
+    .service { background:#f4f4f4; padding:20px; border-radius:8px; width:250px; }
+    footer { background:#0078D7; color:white; text-align:center; padding:20px; }
+    form { display:flex; flex-direction:column; max-width:400px; margin:auto; }
+    input, textarea { margin:10px 0; padding:10px; }
+    button { background:#0078D7; color:white; border:none; padding:10px; cursor:pointer; }
+    button:hover { background:#005a9e; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenue sur mon site</h1>
+    <p>Un espace pour présenter mes services</p>
+  </header>
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Je suis passionné par mon métier et je propose des solutions adaptées à vos besoins.</p>
+  </section>
+  <section id="services">
+    <h2>Mes Services</h2>
+    <div class="services">
+      <div class="service"><h3>Service 1</h3><p>Description rapide.</p></div>
+      <div class="service"><h3>Service 2</h3><p>Description rapide.</p></div>
+      <div class="service"><h3>Service 3</h3><p>Description rapide.</p></div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form>
+      <input type="text" placeholder="aaron" required>
+      <input type="email" placeholder="aaronntakpe@gmail .com" required>
+      <textarea placeholder="Votre message" rows="5" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2026 Mon Site Vitrine - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
+12:48 18/01/202612
